@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # 🛡️ RakshaVoice (रक्ष-Voice)
 ### Real-Time Multilingual Emergency Alert & Voice Dispatch Agent
@@ -7,6 +7,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-orange.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688.svg)](https://fastapi.tiangolo.com)
 [![Sarvam AI](https://img.shields.io/badge/Powered%20By-Sarvam%20AI-E3670D.svg)](https://sarvam.ai)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SriRamkunamsetty/raksha-voice-sarvam&env=SARVAM_API_KEY&envDescription=Your%20Sarvam%20AI%20API%20Subscription%20Key)
 
 **Built for the Sarvam AI Campus Creator Program**  
 *A sovereign Indic voice dispatch agent that takes speech in any Indian language or code-mixed dialect and routes structured emergency alerts with sub-second latency.*
@@ -138,12 +139,30 @@ PORT=8000
 HOST=0.0.0.0
 ```
 
-### 4. Run the Application
+### 4. Run the Application Locally
 ```bash
 python server.py
 ```
 Open your browser at:
 👉 **`http://localhost:8000`**
+
+---
+
+## ☁️ Deploy to Vercel
+
+### Option 1: 1-Click Deploy
+Click the button below to instantly fork and deploy RakshaVoice to Vercel:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SriRamkunamsetty/raksha-voice-sarvam&env=SARVAM_API_KEY&envDescription=Your%20Sarvam%20AI%20API%20Subscription%20Key)
+
+### Option 2: Deploy via Vercel Dashboard
+1. Go to [vercel.com](https://vercel.com) and click **"Add New Project"**.
+2. Import your GitHub repository: `SriRamkunamsetty/raksha-voice-sarvam`.
+3. In **Environment Variables**, add:
+   - `SARVAM_API_KEY`: Your Sarvam API subscription key (`sk_...`).
+4. Click **Deploy**!
+
+Vercel will build the frontend assets on its Global Edge Network and run the FastAPI serverless functions via `@vercel/python` through `api/index.py`.
 
 ---
 
