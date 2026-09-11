@@ -1,7 +1,7 @@
 <div align="center">
 
-# 🛡️ RakshaVoice (रक्ष-Voice)
-### Real-Time Multilingual Emergency Alert & Voice Dispatch Agent
+# 🛡️ RakshaVoice Enterprise (रक्ष-Voice)
+### Sovereign Indic Civil Defense & Real-Time Emergency Operations Center (EOC)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-amber.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-orange.svg)](https://www.python.org/downloads/)
@@ -10,7 +10,7 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SriRamkunamsetty/raksha-voice-sarvam&env=SARVAM_API_KEY&envDescription=Your%20Sarvam%20AI%20API%20Subscription%20Key)
 
 **Built for the Sarvam AI Campus Creator Program**  
-*A sovereign Indic voice dispatch agent that takes speech in any Indian language or code-mixed dialect and routes structured emergency alerts with sub-second latency.*
+*A full-scale, autonomous Indic emergency dispatch intelligence platform that ingests voice telemetry across all Indian languages, triangulates GIS coordinates, and executes coordinated multi-agency rescue dispatches.*
 
 ---
 
@@ -20,50 +20,68 @@
 
 ---
 
-## 📸 User Interface Showcase
+## 📸 Enterprise Command Center Interface
 
-The frontend is styled using the official **Sarvam AI "Bhor / Indic Dawn" Horizon Palette** (`#A8490E` ➔ `#FB8521` ➔ `#CED7F6`), complete with frosted glassmorphism, responsive canvas oscilloscope, and interactive micro-animations.
+The interface is styled using the signature **Sarvam AI "Bhor / Indic Dawn" Horizon Palette** (`#A8490E` ➔ `#FB8521` ➔ `#CED7F6`), featuring an interactive Leaflet GIS radar, acoustic panic analysis, dual-channel audio synthesis, and frosted glassmorphism.
 
 <div align="center">
 
-### 🌅 Live Emergency Dispatch Console
-![RakshaVoice UI Screenshot](docs/ui-screenshot.png)
+### 🌅 Live Emergency Operations Center (EOC) Console
+![RakshaVoice Enterprise UI](docs/ui-screenshot.png)
 
 </div>
 
 ---
 
-## 🚨 The Problem
+## 🚨 The Emergency Crisis in India
 
-During campus accidents, chemical laboratory fires, and civil defense emergencies, panicked callers rarely speak textbook English or formal Hindi. Instead, they speak fast, colloquial, code-mixed phrases:
+In high-stress campus accidents, laboratory fires, or disaster scenarios, callers rarely speak textbook English or formal Hindi. They speak fast, stressed, code-mixed phrases:
 
 > *"Chemistry lab mein cylinder leak aur aag lag gayi hai, do juniors behosh hain, hostel 4 ke peeche jaldi ambulance bhejo!"*
 
-Generic Western speech models (Whisper / Siri) struggle with regional dialects, accents, and heavy code-switching (**Hinglish**, **Tanglish**, **Telugu**, **Bengali**). This leads to dropped calls, delayed dispatching, and misdirected first responders.
+Conventional Western voice models fail to parse Indian dialects, accents, and code-mixed speech (**Hinglish**, **Tanglish**, **Telugu**, **Marathi**, **Bengali**). This results in lost minutes, delayed triage, and misdirected rescue teams.
 
 ---
 
-## ⚡ The Solution: The Sarvam AI Foundational Pipeline
+## 🏛️ The Enterprise Solution: Multi-Agent Indic Pipeline
 
-**RakshaVoice** leverages the newest generation of Sarvam AI foundational models:
+RakshaVoice Enterprise coordinates a swarm of specialized AI agents built on **Sarvam AI Foundational Models**:
 
-| Pipeline Step | Sarvam Model | Role & Differentiator |
+| Pipeline Layer | Sarvam Model | Enterprise Capability |
 |---|---|---|
-| **1. Speech-to-Text** | `saaras:v3` | 16kHz full-duplex stream capturing code-switched Indian speech with zero phonetic hallucination. |
-| **2. Triage & Extraction** | `sarvam-105b-conversations` | 105B-parameter Indic foundational LLM extracting structured JSON telemetry with sub-second latency. |
-| **3. Reassurance Voice** | `bulbul:v3` | Generates natural, calming Indic voice response in the caller's regional accent (*Aditya*, *Vijay*, *Kavitha*). |
+| **1. Audio Streaming** | `saaras:v3` | 16kHz full-duplex voice stream parsing code-switched panic speech with zero phonetic hallucination. |
+| **2. Triage & Geocoding** | `sarvam-105b-conversations` | 105B Indic LLM extracting structured triage, vocal panic scores, and geocoding informal landmarks into GPS coordinates. |
+| **3. Caller Reassurance** | `bulbul:v3` | Synthesizes immediate, calming voice feedback in the caller's regional accent and dialect. |
+| **4. Tactical Radio Dispatch** | `bulbul:v3` | Synthesizes tactical police/EMS radio broadcast chatter for units deployed in the field. |
+| **5. Cross-Language Bridge** | `mayura:v1` / LLM | Real-time bilingual bridge translating caller speech into English & Hindi for control room dispatchers. |
 
 ---
 
-## 🎨 UI Features & Micro-Animations
+## 🌟 Enterprise Key Features
 
-- **Sarvam Horizon Sunrise Gradient**: Multi-stop earthen terracotta to saffron dawn (`#A8490E` ➔ `#E3670D` ➔ `#FB8521` ➔ `#FDA84D` ➔ `#CED7F6`).
-- **Pulsing Emergency SOS Button**: 3D gradient button with radiant saffron pulse aura and hover micro-animations.
-- **Oscilloscope Waveform Visualizer**: Real-time canvas rendering microphone soundwaves in glowing white and marigold.
-- **Audio Equalizer Dance**: Animated multi-bar sound visualizer that dances during Bulbul:v3 voice playback.
-- **Radar Ping Status**: Concentric expanding waves signaling active WebSocket telemetry.
-- **Theme Switcher**: Instant 1-click toggle between **Sunrise Horizon** and **Midnight Saffron**.
-- **1-Click Live-Demo Presets**: Presentation buttons with hover micro-lifts to demonstrate Hinglish, Tanglish, and Telugu scenarios during hackathons without needing microphone permissions.
+### 1. 🗺️ Interactive Geospatial Radar (GIS Fleet Tracking)
+- **Real-Time Campus Topography**: Leaflet GIS map with designated risk zones (Zone A - Academics, Zone B - Hostels, Zone C - Research Labs, Zone D - Utilities).
+- **Incident Epicenter Pinning**: Pulsing red radar markers placed automatically upon coordinate triangulation.
+- **Active Response Fleet**: Live GPS tracking of ambulances (`AMB-01`), campus security vans (`QRT-03`), and fire suppression squads (`FIRE-02`).
+
+### 2. 🧠 Acoustic Vocal Panic & Stress Index
+- Real-time vocal distress score (45%–99%) dynamically calculated from acoustic panic signals to prioritize triage queues.
+
+### 3. 🌐 Cross-Language Intercom Bridge
+- Overcomes language friction between callers and security guards. Displays:
+  - Caller transcript in regional dialect (e.g., Tamil/Telugu).
+  - Synchronized English tactical brief for medical teams.
+  - Synchronized Hindi brief for campus security guards.
+
+### 4. 📻 Two-Channel Audio Broadcast Center
+- **Channel 1 (Caller Stream)**: Calming reassurance in the caller's language.
+- **Channel 2 (Tactical Radio Stream)**: Simulated walkie-talkie broadcast for ground responders with animated equalizer bars.
+
+### 5. 📋 Automated SOP & Hazard Containment
+- Generates 3 immediate Standard Operating Procedure (SOP) action items (e.g., *150m evacuation perimeter, power breaker cut, oxygen trauma kits*).
+
+### 6. 📄 Official Incident Audit Certificate
+- 1-Click export and print-ready regulatory audit report for university safety deans and disaster management authorities.
 
 ---
 
@@ -71,45 +89,30 @@ Generic Western speech models (Whisper / Siri) struggle with regional dialects, 
 
 ```mermaid
 flowchart TD
-    subgraph Client ["Caller / Campus Client"]
-        A[Microphone 16kHz PCM] -->|Live Voice Stream| B[Browser AudioContext & Canvas Visualizer]
+    subgraph Ingestion ["Voice Ingestion Layer"]
+        A[Caller 16kHz PCM Mic] -->|Live Voice Stream| B[Web Audio Oscilloscope]
     end
 
-    subgraph Gateway ["FastAPI Orchestration Engine"]
-        B -->|POST /api/report-audio| C[Audio Relay & Decoder]
-        C -->|Audio Buffer| D[Sarvam Saaras:v3 STT]
-        D -->|Raw Spoken Transcript| E[Turn Aggregator]
+    subgraph Core ["Sarvam Indic Intelligence Core"]
+        B -->|Audio Chunk| C[Sarvam Saaras:v3 STT]
+        C -->|Code-Mixed Transcript| D[Sarvam-105B Multi-Agent Triage]
+        D -->|Triangulates Landmark| E[Campus GIS Geocoder]
+        D -->|Acoustic Panic Analysis| F[Vocal Distress Index 0-100%]
+        D -->|Generates SOP| G[Safety Protocol Engine]
     end
 
-    subgraph Intelligence ["Sarvam Indic Core"]
-        E -->|Panic Transcript| F[Sarvam-105B Triage LLM]
-        F -->|Extracts JSON| G[Structured Incident Payload]
-        F -->|Reassurance Prompt| H[Sarvam Bulbul:v3 TTS]
-        H -->|Base64 Regional WAV| I[Caller Audio Playback]
+    subgraph Voice ["Dual-Track Voice Generation (Bulbul:v3)"]
+        D -->|Caller Dialect Prompt| H[Caller Reassurance Voice]
+        D -->|Tactical Radio Prompt| I[EMS Radio Broadcast Audio]
     end
 
-    subgraph Dispatch ["First Responders"]
-        G --> J[Campus Security & Ambulance QRT Alert]
-        G --> K[Interactive Incident Ledger]
+    subgraph Command ["Emergency Command Center (EOC)"]
+        E --> J[Live Leaflet GIS Map]
+        H --> K[Caller Audio Player]
+        I --> L[Ground Unit Radio Player]
+        G --> M[SOP Action Checklist]
+        D --> N[Official Audit Certificate]
     end
-```
-
----
-
-## 📋 Structured Incident Schema
-
-The panic audio is instantaneously converted into machine-readable JSON:
-
-```json
-{
-  "incident_type": "LAB_DISASTER",
-  "urgency": "CRITICAL",
-  "location": "Chemistry lab, behind Hostel 4",
-  "victims_count": 2,
-  "detected_language": "Hinglish",
-  "summary_en": "A fire and cylinder leak have occurred in the chemistry lab with two unconscious junior students; dispatch an ambulance immediately to the area behind Hostel 4.",
-  "reassurance_indic": "Ghabraiye mat, hum turant madad bhej rahe hain, ambulance aur rescue team jaldi pahunch rahi hai."
-}
 ```
 
 ---
@@ -150,35 +153,33 @@ Open your browser at:
 
 ## ☁️ Deploy to Vercel
 
-### Option 1: 1-Click Deploy
-Click the button below to instantly fork and deploy RakshaVoice to Vercel:
+### Option 1: 1-Click Instant Deploy
+Click below to deploy RakshaVoice Enterprise directly to Vercel:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SriRamkunamsetty/raksha-voice-sarvam&env=SARVAM_API_KEY&envDescription=Your%20Sarvam%20AI%20API%20Subscription%20Key)
 
 ### Option 2: Deploy via Vercel Dashboard
-1. Go to [vercel.com](https://vercel.com) and click **"Add New Project"**.
-2. Import your GitHub repository: `SriRamkunamsetty/raksha-voice-sarvam`.
-3. In **Environment Variables**, add:
+1. Go to [vercel.com](https://vercel.com) and import `SriRamkunamsetty/raksha-voice-sarvam`.
+2. Add Environment Variable:
    - `SARVAM_API_KEY`: Your Sarvam API subscription key (`sk_...`).
-4. Click **Deploy**!
-
-Vercel will build the frontend assets on its Global Edge Network and run the FastAPI serverless functions via `@vercel/python` through `api/index.py`.
+3. Click **Deploy**.
 
 ---
 
 ## 🎓 Campus Creator Workshop & Hackathon Script
 
-Use this 4-step walkthrough when presenting RakshaVoice:
-1. **The Hook**: Play panicked Hinglish audio into a standard voice assistant (it fails to parse Indian names & locations).
-2. **The Ingestion**: Click **START SOS**, speak in Hindi/Tamil/Hinglish, and watch Sarvam Saaras transcribe live words.
-3. **The Intelligence**: Watch Sarvam-105B instantly categorize severity, victim count, and exact campus landmarks.
-4. **The Empathy**: Listen to Sarvam Bulbul:v3 respond with calming, localized voice guidance while dispatching the Quick Response Team.
+Use this 5-step walkthrough when presenting RakshaVoice Enterprise:
+1. **The Crisis**: Demonstrate how language barriers and colloquial panic cause emergency delays.
+2. **The Speech Ingestion**: Speak Hinglish or Tanglish and watch `Saaras:v3` transcribe with code-switching accuracy.
+3. **The GIS Radar**: Watch the Leaflet map automatically pin the emergency coordinates and dispatch response units.
+4. **The Distress Index**: Showcase the Vocal Panic score and automated SOP containment protocols.
+5. **The Dual Audio Stream**: Play both the native caller reassurance and the tactical police radio broadcast generated by `Bulbul:v3`.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is open-sourced under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
